@@ -15,11 +15,11 @@
 3. 选择 **Visual C\#**
 4. 若使用 VS2015，选择 **ASP.NET Web Application** &gt; **ASP.NET 5 Empty**，并且取消勾选“Host in the cloud”，因为我们要在本地运行。
 
-   ![使用空白模版](../assets/images/tutorials/aspnet/new-asp-project-empty.png)
+
 
 5. 若使用 VS2017，选择 **ASP.NET Core Web Application (.NET Core)** &gt; **ASP.NET Core 1.1 Empty**。
 
-   ![使用空白模版VS2017](../assets/images/tutorials/aspnet/new-asp-project-empty-17.PNG)
+
 
 运行此应用以确保它能正常工作。
 
@@ -58,7 +58,7 @@ public void Configure(IApplicationBuilder app)
 
 打开 **Dependencies** &gt; **Manage NuGet Packages** &gt; **Browse**。搜索并安装`Microsoft.AspNetCore.StaticFiles` 1.1.2：
 
-![安装Microsoft.AspNetCore.StaticFiles](../assets/images/tutorials/aspnet/install-nuget-packages.png)
+
 
 如下替换掉`Startup.cs`里`Configure`的内容：
 
@@ -76,17 +76,17 @@ public void Configure(IApplicationBuilder app)
 
 下一步我们为 TypeScript 添加一个文件夹。
 
-![Create new folder](../assets/images/tutorials/aspnet/new-folder.png)
+
 
 将文件夹命名为 `scripts`。
 
-![scripts folder](../assets/images/tutorials/aspnet/scripts-folder.png)
+
 
 ### 添加 TypeScript 代码
 
 在`scripts`上右击并选择**New Item**。 接着选择**TypeScript File**（也可能 .NET Core 部分），并将此文件命名为`app.ts`。
 
-![New item](../assets/images/tutorials/aspnet/new-item.png)
+
 
 ### 添加示例代码
 
@@ -108,7 +108,7 @@ function sayHello() {
 
 我们先来告诉 TypeScript 怎样构建。 右击 scripts 文件夹并选择**New Item**。 接着选择**TypeScript Configuration File**，保持文件的默认名字为`tsconfig.json`。
 
-![Create tsconfig.json](../assets/images/tutorials/aspnet/new-tsconfig.png)
+
 
 将默认的`tsconfig.json`内容改为如下所示：
 
@@ -179,7 +179,7 @@ gulp.task('default', function () {
 
 现在，右击`gulpfile.js`并选择**Task Runner Explorer**。 若'default'和'clean'任务没有显示输出内容的话，请刷新 explorer：
 
-![Refresh Task Runner Explorer](../assets/images/tutorials/aspnet/task-runner-explorer.png)
+
 
 ### 编写 HTML 页
 
@@ -208,7 +208,7 @@ gulp.task('default', function () {
 1. 运行项目。
 2. 在输入框中键入时，您应该看到一个消息：
 
-![Picture of running demo](../assets/images/tutorials/aspnet/running-demo.png)
+
 
 ### 调试
 
@@ -217,7 +217,7 @@ gulp.task('default', function () {
 3. 在 `return` 那一行上打一个断点。
 4. 在输入框中键入一些内容，确认 TypeScript 代码命中断点，观察它是否能正确地工作。
 
-![Demo paused on breakpoint](../assets/images/tutorials/aspnet/paused-demo.png)
+
 
 这就是你需要知道的在 ASP.NET 中使用 TypeScript 的基本知识了。 接下来，我们引入 Angular，写一个简单的 Angular 程序示例。
 

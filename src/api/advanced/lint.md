@@ -405,7 +405,7 @@ npm install --save-dev eslint-plugin-react
 
 如果以上步骤都不奏效，则可以在「文件 => 首选项 => 设置」中配置 `"eslint.trace.server": "messages"`，按 `Ctrl`+`Shift`+`U` 打开输出面板，然后选择 ESLint 输出，查看具体错误。
 
-![VSCode 的 ESLint 输出](../assets/vscode-output-eslint.png)
+
 
 ### 为什么有些定义了的变量（比如使用 `enum` 定义的变量）未使用，ESLint 却没有报错？
 

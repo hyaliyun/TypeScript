@@ -17,7 +17,7 @@
 
 如果你没有学过 TypeScript，那么可能连这样的接口提示都看不懂了：
 
-![what-is-typescript-tip](../assets/what-is-typescript-tip.png)
+
 
 
 
