@@ -75,7 +75,7 @@ CAUSE ERROR: Type '() => string' is not assignable to type 'string'.
 
 IDE 通常会在详细的错误提示之后显示简洁版本，如下所示：
 
-<img :src="$withBase('/ide.png')" alt="ide"/>
+
 
 - 你通常可能只会阅读「为什么」的详细信息；
 - 当你想寻找相同的错误时（使用 `TSXXX` 错误编号，或者部分错误信息），使用简洁的版本。
