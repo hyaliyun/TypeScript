@@ -1078,7 +1078,7 @@ body {
 
   .sectionContainer h1 {
     margin-bottom: 20px;
-    padding: 100px 0;
+    padding: 20px 0;
     font-family: Arial, sans-serif;
 	font-size: 2.5rem;
 	color: #333;
