@@ -1074,29 +1074,42 @@ body {
 	color: #6c757d;
 	border-radius: 12px 12px 0 0;
 	margin-bottom: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
 
   .sectionContainer h1 {
-	font-size: 2.5em;
-	margin-bottom: 15px;
-	color: #6c757d;
+    margin-bottom: 20px;
+    padding: 100px 0;
+    font-family: Arial, sans-serif;
+	font-size: 2.5rem;
+	color: #333;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+
+  p {
+    margin-bottom: 20px;
   }
 
   .formButton {
-	display: inline-block;
-	padding: 10px 20px;
-	background-color: #2ecc71;
-	color: white;
-	border-radius: 25px;
-	font-weight: bold;
-	margin-top: 20px;
-	transition: all 0.3s ease;
+    display: inline-block;
+    text-decoration: none;
+    color: #000; /* Default black text color */
+    background-color: transparent; /* No background color */
+    border: 2px solid #000; /* Default black border */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s; /* Optional: Smooth transition effects */
   }
 
   .formButton:hover {
-	background-color: #27ae60;
-	transform: translateY(-2px);
-	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color: #f0f0f0; /* Light gray hover background */
+    border-color: #f0f0f0; /* Matching hover border color */
   }
 
 section {
