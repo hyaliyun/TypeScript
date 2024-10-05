@@ -1073,19 +1073,20 @@ body {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  }
+    background-color: #fff; /* 添加背景色 */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* 调整阴影 */
+    border-radius: 8px; /* 添加圆角 */
+}
 
-  .sectionContainer h1 {
+.sectionContainer h1 {
     margin-bottom: 20px;
-    padding: 20px 0;
+    padding: 0 0 20px; /* 移除顶部内边距，保留底部 */
     font-family: Arial, sans-serif;
-	font-size: 2.5rem;
-	color: #333;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-  }
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold; /* 字体加粗 */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1); /* 添加文本阴影 */
+}
 
   p {
     margin-bottom: 20px;
