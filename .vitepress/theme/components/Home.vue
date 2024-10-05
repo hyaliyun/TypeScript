@@ -1069,15 +1069,11 @@ body {
   }
 
   .sectionContainer {
-	text-align: center;
-	padding: 40px 20px;
-	color: #6c757d;
-	border-radius: 12px 12px 0 0;
-	margin-bottom: 30px;
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
 
   .sectionContainer h1 {
