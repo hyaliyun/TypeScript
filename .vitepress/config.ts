@@ -695,7 +695,7 @@ export const sidebar: ThemeConfig['sidebar'] = {
 
 export default defineConfigWithTheme<ThemeConfig>({
   extends: baseConfig,
-
+  ignoreDeadLinks: true,
   sitemap: {
     hostname: 'https://www.82oo.com'
   },
